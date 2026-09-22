@@ -9,6 +9,12 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -43,6 +49,7 @@ a {
   font-size: 24px;
   display: flex;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -50,13 +57,14 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  width: 334;
+  width: 300px;
 }
 
 .content {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
 }
 
 .body {
